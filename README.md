@@ -64,7 +64,7 @@ Our tools are specifically designed as foundations for autonomous platform syste
 **Our Solution**:
 - **[cargo-forge](https://github.com/marcuspat/cargo-forge)** - 7 specialized project types with <0.1s generation time, designed for intelligent project scaffolding
 - **[file-hasher](https://github.com/marcuspat/file-hasher)** - Supply chain integrity verification for build systems
-- **[json-prettify](https://github.com/marcuspat/json-prettify)** - Data formatting utilities for system communication
+- **[json-prettify](https://github.com/adventurewave-labs/json-prettify)** - Data formatting utilities for system communication
 
 *These tools provide the speed and reliability needed to create, analyze, and modify development artifacts.*
 
