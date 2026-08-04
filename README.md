@@ -42,7 +42,7 @@ Our tools are specifically designed as foundations for autonomous platform syste
 **Challenge**: Companies are afraid of security issues due to "lacking ecosystem maturity" and need continuous, intelligent security monitoring.
 
 **Our Solution**: 
-- **[secretscan](https://github.com/marcuspat/secret-scan)** - 99% detection accuracy with 51k files/second throughput, designed for continuous scanning
+- **[secretscan](https://github.com/adventurewave-labs/secret-scan)** - obfuscation detection, up to ~1,200 files/sec measured, designed for continuous scanning
 - **[cargocrypt](https://github.com/marcuspat/cargocrypt)** - Cryptographic operations with intelligent defaults, 58-119 MB/s encryption speed
 
 *These tools provide the high-performance security primitives that autonomous systems need for threat detection and remediation.*
@@ -53,9 +53,9 @@ Our tools are specifically designed as foundations for autonomous platform syste
 
 **Our Solution**:
 - **[k8s-netinspect](https://github.com/marcuspat/k8s-netinspect)** - CNI detection and pod connectivity testing for Kubernetes network management
-- **[netrain](https://github.com/marcuspat/netrain)** - 212x faster packet parsing with Matrix-style visualization and real-time threat detection
+- **[netrain](https://github.com/marcuspat/netrain)** - Matrix-style visualization and real-time threat detection
 
-*These tools enable systems to understand and manage network infrastructure with sub-millisecond response times.*
+*These tools enable systems to understand and manage network infrastructure.*
 
 ### Development Workflows
 
@@ -319,9 +319,9 @@ async fn agentic_mesh_research_concept() {
 Industry research emphasizes that agentic systems require tools that can operate at machine speed with machine reliability. Our comprehensive test validation proves these capabilities:
 
 ### Real-Time Performance 
-- **secretscan**: 51,020 files/second scanning speed (verified)
+- **secretscan**: up to ~1,200 files/sec measured (see [validation report](https://github.com/adventurewave-labs/secret-scan/blob/main/SECRET_SCAN_VALIDATION_REPORT.md) — an earlier "51,020 files/sec" figure did not hold up and has been corrected)
 - **cargocrypt**: 58-119 MB/s encryption throughput (measured in testing)  
-- **netrain**: 212x faster packet parsing with sub-millisecond threat detection (documented)
+- **netrain**: Matrix-style packet visualization with real-time threat detection
 - **cargo-forge**: <0.1 second project generation (documented)
 - **k8s-netinspect**: Sub-second cluster analysis (tested against real cluster)
 
@@ -354,8 +354,8 @@ cargo install cargo-forge
 
 ### Run the Integration Experiments
 ```bash
-git clone https://github.com/marcuspat/rust-agentic-platform-foundations
-cd rust-agentic-platform-foundations
+git clone https://github.com/adventurewave-labs/rust-agentic-platform-engineering
+cd rust-agentic-platform-engineering
 cargo run --bin experiments
 ```
 
@@ -401,7 +401,7 @@ This is **foundational research** transitioning to **production readiness**. The
 **What works now:**
 - Individual Rust tools with verified performance metrics from comprehensive testing
 - CLI interfaces confirmed to work as documented
-- Proven capabilities: secretscan (99% accuracy, 51k files/sec), netrain (212x faster parsing), cargocrypt (58-119 MB/s encryption), k8s-netinspect (CNI detection, pod connectivity), cargo-forge (7 project types, <0.1s generation)
+- Capabilities: secretscan (obfuscation detection, ~1,200 files/sec measured), netrain (Matrix-style packet visualization), cargocrypt (58-119 MB/s encryption), k8s-netinspect (CNI detection, pod connectivity), cargo-forge (7 project types, <0.1s generation)
 - Basic integration examples using verified command-line interfaces
 
 **What's experimental research:**
@@ -440,8 +440,8 @@ The platform engineering community is actively building this future. We welcome 
 
 ```bash
 # Contributing workflow
-git clone https://github.com/marcuspat/rust-agentic-platform-foundations
-cd rust-agentic-platform-foundations
+git clone https://github.com/adventurewave-labs/rust-agentic-platform-engineering
+cd rust-agentic-platform-engineering
 cargo test
 cargo run --bin experiments
 # Create your experimental integration
