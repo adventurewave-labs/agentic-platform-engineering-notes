@@ -6,6 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Experimental](https://img.shields.io/badge/Status-Experimental-yellow.svg)](#status)
 
+> **Scope: research notes, not an implementation.** This repository contains **no Rust code** — it is a written analysis of integration patterns for agentic platform engineering. The tools it references are real and independently maintained; the patterns described here are experimental and unvalidated. Treat this as a design document, not a library.
+
 ## The Agentic Platform Engineering Wave
 
 The platform engineering industry is experiencing a fundamental shift. Traditional static tools are evolving into intelligent, autonomous systems that can think, adapt, and act independently. This repository provides the high-performance Rust foundations that make this transformation possible.
@@ -75,7 +77,7 @@ The industry recognizes that agentic AI is the critical missing component that c
 ### Proven Performance 
 All tools are validated with comprehensive test reports showing real-world performance metrics that meet the demands of autonomous systems.
 
-### Production-Ready Reliability
+### Reliability Patterns
 Built with Rust's memory safety guarantees and zero-cost abstractions, ensuring the stability required for autonomous operation.
 
 ### Programmatic Interfaces  
