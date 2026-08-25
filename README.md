@@ -44,7 +44,7 @@ Our tools are specifically designed as foundations for autonomous platform syste
 **Challenge**: Companies are afraid of security issues due to "lacking ecosystem maturity" and need continuous, intelligent security monitoring.
 
 **Our Solution**: 
-- **[secretscan](https://github.com/adventurewave-labs/secret-scan)** - obfuscation detection, up to ~1,200 files/sec measured, designed for continuous scanning
+- **[secretscan](https://github.com/adventurewave-labs/secret-scan)** - obfuscation detection, up to ~fast scanning, designed for continuous scanning
 - **[cargocrypt](https://github.com/marcuspat/cargocrypt)** - Cryptographic operations with intelligent defaults, 58-119 MB/s encryption speed
 
 *These tools provide the high-performance security primitives that autonomous systems need for threat detection and remediation.*
@@ -75,7 +75,7 @@ Our tools are specifically designed as foundations for autonomous platform syste
 The industry recognizes that agentic AI is the critical missing component that can elevate platform engineering efforts by automating complex processes and enabling true team velocity. Our tools bridge this gap by providing:
 
 ### Proven Performance 
-All tools are validated with comprehensive test reports showing real-world performance metrics that meet the demands of autonomous systems.
+All tools are validated with test reports showing performance metrics that meet the demands of autonomous systems.
 
 ### Reliability Patterns
 Built with Rust's memory safety guarantees and zero-cost abstractions, ensuring the stability required for autonomous operation.
@@ -321,7 +321,7 @@ async fn agentic_mesh_research_concept() {
 Industry research emphasizes that agentic systems require tools that can operate at machine speed with machine reliability. Our comprehensive test validation proves these capabilities:
 
 ### Real-Time Performance 
-- **secretscan**: up to ~1,200 files/sec measured (see [validation report](https://github.com/adventurewave-labs/secret-scan/blob/main/SECRET_SCAN_VALIDATION_REPORT.md) — an earlier "51,020 files/sec" figure did not hold up and has been corrected)
+- **secretscan**: up to ~fast scanning (see (test suite) — an earlier throughput figure was corrected)
 - **cargocrypt**: 58-119 MB/s encryption throughput (measured in testing)  
 - **netrain**: Matrix-style packet visualization with real-time threat detection
 - **cargo-forge**: <0.1 second project generation (documented)
@@ -403,7 +403,7 @@ This is **foundational research** transitioning to **production readiness**. The
 **What works now:**
 - Individual Rust tools with verified performance metrics from comprehensive testing
 - CLI interfaces confirmed to work as documented
-- Capabilities: secretscan (obfuscation detection, ~1,200 files/sec measured), netrain (Matrix-style packet visualization), cargocrypt (58-119 MB/s encryption), k8s-netinspect (CNI detection, pod connectivity), cargo-forge (7 project types, <0.1s generation)
+- Capabilities: secretscan (obfuscation detection, ~fast scanning), netrain (Matrix-style packet visualization), cargocrypt (58-119 MB/s encryption), k8s-netinspect (CNI detection, pod connectivity), cargo-forge (7 project types, <0.1s generation)
 - Basic integration examples using verified command-line interfaces
 
 **What's experimental research:**
