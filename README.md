@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="agentic-platform-engineering-notes — animated banner" width="100%"></p>
+
 # Agentic Platform Engineering: Research Notes
 
 > Research notes on high-performance, memory-safe Rust tooling for the next generation of autonomous platform systems
